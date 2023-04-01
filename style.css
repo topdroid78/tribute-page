@@ -1,0 +1,172 @@
+html
+{scroll-behavior:smooth}
+
+body{
+    background-image: url(https://media.istockphoto.com/id/172330660/photo/whiskey-series.jpg?s=612x612&w=0&k=20&c=qlgZtAHeVnh4poNkKB9GBtJfLsx_pNxMw_U2Rk35L9U=);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+    background-color: #b30a08;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
+    
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+
+.nav-hide-text {
+    width: 100%;
+    height: 20px;
+    background-color: #262622;
+}
+
+
+#logo {
+    height:100%;
+    max-height: 206px;
+    width: 25%;
+    max-width: 166px;
+    border-radius: 40px;
+    object-fit: cover;
+    min-width: 175px;
+    min-height: 133px;
+    
+}
+
+.introduction{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header > nav > ul {
+    
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 90px;;
+    
+}
+
+.header > nav > ul > li {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #f7f7e4;
+    display: inline-block;
+}
+
+.header > nav > ul > li > a:hover {
+    background-color: #f7f7e4;
+    color: #b30a08;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #f7f7e4;
+}
+
+nav  {
+    flex-grow: 2;
+    
+}
+
+.container {
+    background-color: #262622;
+    text-align: center;
+    margin: 20px auto ;
+    padding: 0 20px 25px;
+    color: #f7f7e4;
+    width: 95%;
+    border-radius: 8px;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0;
+    padding: 20px 10px;
+    
+}
+
+.gallery > img {
+    width: 100%;
+    max-width: 300px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #b30a08;
+    border-radius: 8px;
+    padding: 0.2px 0;
+    font-size: 20px;
+
+}
+
+footer > p > a:hover {
+    background-color: #f7f7e4;
+    color: #b30a08;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.big {
+    font-size: 40px;
+}
+
+.medium {
+    font-size: 30px;
+}
+
+.margin {
+    margin: 55px 0;
+}
+
+.facts-list > li {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.quote {
+    border: 2px solid #b30a08;
+    display: inline-block;
+    padding: 15px;
+}
+
+.yellow {
+    color: #fff700;
+}
+
+.under-line {
+    border-bottom: 2px #f7f7e4 solid;
+    font-size: 20px;
+}
